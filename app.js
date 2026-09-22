@@ -8,11 +8,14 @@ if(isLoggedIn === true){
     }
 }
  */
-const x = 0
-function classifier(x){
-    if (x === 0);
-console.log("Zero");}{
-    elseif (x < 0 && x % 2 === 0);
-        console.log("positive even");
-   
+
+function classifyNumber(x){
+    if (x === 0) console.log("Zero");
+   else if ((x > 0) && (x % 2 === 0)) console.log("positive even");
+   else if ((x > 0) && (x % 2 !== 0)) console.log("positive odd");
+   else if ((x < 0) && (x % 2 === 0)) console.log("negative even");
+   else if ((x < 0) && (x % 2 !== 0)) console.log("negative odd");
+
 }
+
+classifyNumber(-1);
