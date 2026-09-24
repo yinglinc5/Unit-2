@@ -12,4 +12,4 @@ getLetterGrade(95);
 getLetterGrade(82);
 getLetterGrade(59);
 getLetterGrade(-5);
-getLetterGrade();
+getLetterGrade(150);
