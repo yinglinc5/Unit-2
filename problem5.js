@@ -1,9 +1,9 @@
 function getShippingCost(weight, isMember){
     if(isMember === true){
-        if(weight < 5){
+        if(weight <= 5){
             console.log("Free");
         }
-        else if(weight >= 5){
+        else if(weight > 5){
             console.log("$3");
         }
     }
